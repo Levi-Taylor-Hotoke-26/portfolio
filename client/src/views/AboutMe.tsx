@@ -13,7 +13,9 @@ export default function AboutMe() {
       leading to long training periods, staff errors, and staff frustration.
       <br/><br/>
       What if I could create one website that combined all the functions that ANZ needs into one user friendly
-      interface? That's why I've been studying full stack development at Dev Academy.
+      interface?
+      <br/><br/>
+      That's why I've been studying web and software development.
       <br/><br/>
       I'm looking for a career where I can help workplaces improve efficiency, reduce staff and customer frustration,
       and perhaps even boost morale and team bonding by embedding small games. I’ll bring initiative, critical thinking
