@@ -8,7 +8,7 @@ export default function Interests() {
       <div className="horizontal-scroll-container">
         {items.map((item) => (
           <div key={item.id} className="gallery-card">
-            <img src={item.imageUrl} alt={item.title} className="gallery-img" />
+            <img src={item.imageUrl} alt={`${item.title}'s poster`} className="gallery-img" />
             <p className="gallery-item-title">{item.title}</p>
           </div>
         ))}

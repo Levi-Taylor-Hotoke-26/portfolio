@@ -1,11 +1,11 @@
 export default function Qualifications() {
   return (
     <section id="qualifications">
-      <h3 className="qualifications-main-title">Qualifications & Certificates</h3>
+      <h2 className="qualifications-main-title">Qualifications & Certificates</h2>
       
       {/* Mission Ready */}
       <div className="qualification-card">
-        <h4 className="qual-title">New Zealand Diploma in Web Development and Design(L5)</h4>
+        <h3 className="qual-title">New Zealand Diploma in Web Development and Design(L5)</h3>
         <p className="qual-issuer">Mission Ready HQ</p>
         <p className="qual-date">Expected to complete in 2027</p>
         
@@ -32,7 +32,7 @@ export default function Qualifications() {
 
       {/* Dev Academy */}
       <div className="qualification-card">
-        <h4 className="qual-title">New Zealand Diploma in Software Development(L6)</h4>
+        <h3 className="qual-title">New Zealand Diploma in Software Development(L6)</h3>
         <p className="qual-issuer">Dev Academy</p>
         <p className="qual-date">2026</p>
         
@@ -59,7 +59,7 @@ export default function Qualifications() {
 
       {/* Yoobee */}
       <div className="qualification-card">
-        <h4 className="qual-title">New Zealand Certificate in Information Technology(L5)</h4>
+        <h3 className="qual-title">New Zealand Certificate in Information Technology(L5)</h3>
         <p className="qual-issuer">Yoobee College</p>
         <p className="qual-date">2026</p>
         <p className="qual-grade">Grade: A (3.7 GPA)</p>
@@ -87,7 +87,7 @@ export default function Qualifications() {
 
       {/* Mito */}
       <div className="qualification-card">
-        <h4 className="qual-title">New Zealand Certificate in Business (First Line Management)(L4)</h4>
+        <h3 className="qual-title">New Zealand Certificate in Business (First Line Management)(L4)</h3>
         <p className="qual-issuer">MITO</p>
         <p className="qual-date">2021</p>
         

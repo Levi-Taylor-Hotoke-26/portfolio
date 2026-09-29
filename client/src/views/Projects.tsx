@@ -8,7 +8,7 @@ export default function Projects() {
         <div key={project.id} className="project-card">
           <h3>
             {project.title}{' '}
-            {project.status && <span style={{ color: 'red' }}>{project.status}</span>}
+            {project.status && <span style={{ color: '#ad0202' }}>{project.status}</span>}
           </h3>
           <p>
             <a href={project.githubUrl} target="_blank" rel="noreferrer">GitHub</a>

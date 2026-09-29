@@ -82,7 +82,7 @@ hr {
 }
 
 .skill-pill {
-  background-color: #71A9F7;
+  background: linear-gradient(135deg, #71A9F7 0%, #6B5CA5 100%);;
   color: #4C1036;
   padding: 0.35rem 0.75rem;
   border-radius: 50px;
