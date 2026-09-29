@@ -58,5 +58,5 @@ export const projectsData: Project[] = [
       'Designed robust validation loops to ensure inputs are correctly handled and error-free',
       'Built terminal output tables with aligned columns for both yearly and monthly summary views',
     ],
-  },
+  }
 ];

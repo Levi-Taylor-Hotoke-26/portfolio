@@ -1,13 +1,23 @@
-nav a {
-  text-decoration: none;
-  color: black;
-  font-weight:bold;
-}
-
 body{
-  background-color: rgba(172, 247, 193, 0.2);
+  background-color: #C6D8FF;
   text-align: center;
   font-family: monospace;
+  color: #4C1036;
+}
+
+header h1, header h2 {
+  color: #4C1036;
+}
+
+nav a {
+  text-decoration: none;
+  color: #72195A;
+  font-weight: bold;
+  transition: color 0.1s ease;
+}
+
+nav a:hover {
+  color: #4C1036;
 }
 
 /* Pikachu */
@@ -18,6 +28,14 @@ body{
   height: 35px;
   margin: 0.1 0;
 }
+
+hr {
+  background-color: #6B5CA5;
+  width: 100%;
+  border: none;
+  height: 2px;
+}
+
 .pikachu-running {
   height: 35px;
   width: auto;
@@ -27,12 +45,31 @@ body{
   animation: runAcross 4s linear infinite;
 }
 
+.pikachu-running-flipped {
+  height: 35px;
+  width: auto;
+  position: absolute;
+  right: -120px;
+  image-rendering: pixelated;
+  animation: runAcrossRightToLeft 4s linear infinite;
+  transform: scaleX(-1);
+}
+
 @keyframes runAcross {
   0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(calc(100vw + 150px));
+  }
+}
+
+@keyframes runAcrossRightToLeft {
+  0% {
+    transform: scaleX(-1) translateX(0);
+  }
+  100% {
+    transform: scaleX(-1) translateX(calc(100vw + 150px));
   }
 }
 
@@ -45,13 +82,13 @@ body{
 }
 
 .skill-pill {
-  background-color: #f0f2f5;
-  color: #333;
+  background-color: #71A9F7;
+  color: #4C1036;
   padding: 0.35rem 0.75rem;
   border-radius: 50px;
   font-size: 0.85rem;
-  font-weight: 500;
-  border: 1px solid #e2e8f0;
+  font-weight: bold;
+  border: 1px solid #6B5CA5;
   transition: all 0.2s ease;
 }
 
@@ -68,8 +105,64 @@ section li {
 }
 
 iframe {
-  border: solid 2px black;
+  border: solid 2px #4C1036;
   overflow: hidden;
   width: 100%;
   max-width: 900px;
+}
+
+/* Interests */
+#interests {
+  padding: 0 1rem;
+}
+
+.interests-main-title {
+  color: #4C1036;
+  margin-bottom: 1.5rem;
+}
+
+.gallery-section {
+  margin-bottom: 2rem;
+  text-align: left;
+  padding: 0 2rem;
+}
+
+.gallery-title {
+  color: #72195A;
+  border-bottom: 2px solid #6B5CA5;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.horizontal-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  scrollbar-width: thin;
+  justify-content: center;
+}
+
+.gallery-card {
+  flex: 0 0 auto;
+  width: 140px;
+  text-align: center;
+  background-color: #71A9F7;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #6B5CA5;
+}
+
+.gallery-img {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.gallery-item-title {
+  font-size: 0.85rem;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #4C1036;
 }

@@ -4,6 +4,7 @@ import AboutMe from '../views/AboutMe.tsx'; // You can extract your About sectio
 import Skills from '../views/Skills.tsx';
 import Projects from '../views/Projects.tsx';
 import Games from '../views/Games.tsx';
+import Interests from '../views/Interests.tsx'
 
 export default function App() {
   return (
@@ -13,7 +14,6 @@ export default function App() {
           <h1>Levi Taylor - Web Developer</h1>
           <h2>This is my portfolio for my coding projects!</h2>
 
-          <hr />
           <nav>
             <p>
               <Link to="/">About Me</Link>
@@ -23,10 +23,11 @@ export default function App() {
               <Link to="/projects">Projects</Link>
               <b> | </b>
               <Link to="/games">Games</Link>
+              <b> | </b>
+              <Link to="/interests">Interests</Link>
             </p>
           </nav>
           <hr />
-
           <div className="pikachu-track">
             <img src="/client/public/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running" />
           </div>
@@ -40,13 +41,16 @@ export default function App() {
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/games" element={<Games />} />
+            <Route path="/interests" element={<Interests />} />
           </Routes>
         </main>
 
-        <hr />
-        <hr />
-
         <footer>
+          <hr/>
+            <div className="pikachu-track">
+              <img src="/client/public/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running-flipped" />
+            </div>
+          <hr/>
           <a href="https://github.com/Levi-Taylor-Hotoke-26" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
             <img width="37px" src="/client/public/images/github-logo.png" alt="GitHub logo" />
           </a>

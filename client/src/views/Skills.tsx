@@ -9,8 +9,8 @@ export default function Skills() {
         <div className="pill-group">
           <span className="skill-pill">TypeScript</span>
           <span className="skill-pill">JavaScript</span>
-          <span className="skill-pill">HTML & CSS</span>
-          <span className="skill-pill">Sass CSS</span>
+          <span className="skill-pill">HTML</span>
+          <span className="skill-pill">CSS</span>
           <span className="skill-pill">React</span>
           <span className="skill-pill">Node.js</span>
         </div>

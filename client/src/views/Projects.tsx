@@ -26,7 +26,6 @@ export default function Projects() {
               <li key={index}>{task}</li>
             ))}
           </ul>
-          <hr />
         </div>
       ))}
     </section>
