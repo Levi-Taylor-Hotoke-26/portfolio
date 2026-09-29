@@ -1,10 +1,10 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import AboutMe from '../views/AboutMe.tsx'; // You can extract your About section into this view too!
 import Skills from '../views/Skills.tsx';
 import Projects from '../views/Projects.tsx';
 import Games from '../views/Games.tsx';
 import Interests from '../views/Interests.tsx'
+import Qualifications from '../views/Qualifications.tsx';
 
 export default function App() {
   return (
@@ -18,6 +18,8 @@ export default function App() {
               <Link to="/">About Me</Link>
               <b> | </b>
               <Link to="/skills">Skills</Link>
+              <b> | </b>
+              <Link to="/qualifications">Qualifications</Link>
               <b> | </b>
               <Link to="/projects">Projects</Link>
               <b> | </b>
@@ -33,11 +35,11 @@ export default function App() {
           <hr />
         </header>
 
-        {/* Dynamic Route Switching */}
         <main>
           <Routes>
             <Route path="/" element={<AboutMe />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path="/qualifications" element={<Qualifications />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/games" element={<Games />} />
             <Route path="/interests" element={<Interests />} />

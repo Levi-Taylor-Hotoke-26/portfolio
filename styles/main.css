@@ -166,3 +166,80 @@ iframe {
   font-weight: bold;
   color: #4C1036;
 }
+
+/* Qualifications */
+#qualifications {
+  padding: 0 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.qualifications-main-title {
+  color: #4C1036;
+  margin-bottom: 1.5rem;
+}
+
+.qualification-card {
+  position: relative;
+  background-color: #71A9F7;
+  border: 1px solid #6B5CA5;
+  border-radius: 8px;
+  padding: 1.5rem;
+  padding-bottom: 3.5rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  color: #4C1036;
+}
+
+.qual-title {
+  margin: 0 0 0.5rem 0;
+  color: #4C1036;
+}
+
+.qual-issuer, .qual-date, .qual-grade {
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+  color: #4C1036;
+}
+
+.qual-dropdown {
+  margin-top: 1rem;
+}
+
+.qual-summary-btn {
+  background-color: #72195A;
+  color: #C6D8FF;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+
+.qual-summary-btn:hover {
+  background-color: #4C1036;
+}
+
+.qual-logo-badge {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: linear-gradient(135deg, #C6D8FF 0%, #6B5CA5 100%);
+  border: 1px solid #6B5CA5;
+  border-radius: 6px;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 140px;
+  box-shadow: 0 2px 4px rgba(76, 16, 54, 0.15);
+}
+
+.qual-logo-badge img {
+  max-height: 28px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}

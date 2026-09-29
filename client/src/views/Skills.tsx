@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
-    <section id="skills">
-      <h2>Skill Stack</h2>
+    <><section id="skills">
+      <h2>Skills</h2>
 
       <div className="skills-category">
         <span className="category-title">Core Languages & Frontend:</span>
@@ -25,6 +25,7 @@ export default function Skills() {
           <span className="skill-pill">Git & GitHub</span>
           <span className="skill-pill">VS Code</span>
           <span className="skill-pill">SQLite / Turso</span>
+          <span className="skill-pill">Render Deployment</span>
         </div>
       </div>
       <br /><br />
@@ -40,6 +41,6 @@ export default function Skills() {
         </div>
       </div>
       <br />
-    </section>
+    </section></>
   );
 }
