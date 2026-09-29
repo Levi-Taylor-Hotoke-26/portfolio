@@ -92,7 +92,6 @@ hr {
   transition: all 0.2s ease;
 }
 
-/* Projects */
 section ul {
   display: inline-block;
   text-align: left;
@@ -109,6 +108,84 @@ iframe {
   overflow: hidden;
   width: 100%;
   max-width: 900px;
+}
+
+/* Projects Section */
+#projects {
+  padding: 0 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projects-main-title {
+  color: #4C1036;
+  margin-bottom: 1.5rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: linear-gradient(180deg, #71A9F7 0%, #6B5CA5 35%, #72195A 70%, #4C1036 100%);
+  border: 1px solid #6B5CA5;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+  color: #C6D8FF;
+}
+
+.project-title {
+  margin: 0 0 0.5rem 0;
+  color: #C6D8FF;
+  font-size: 1.1rem;
+}
+
+.project-status {
+  font-size: 0.85rem;
+  color: #72195A;
+  font-weight: bold;
+}
+
+.project-links {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.project-links a {
+  color: #C6D8FF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  color: #C6D8FF;
+  text-decoration: underline;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: #C6D8FF;
+}
+
+.role-heading {
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+  color: #C6D8FF;
+}
+
+.role-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.role-list li {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+  color: #C6D8FF;
 }
 
 /* Interests */
