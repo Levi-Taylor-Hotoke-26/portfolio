@@ -1,13 +1,7 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './src/components/App.js';
+import { createRoot } from 'react-dom/client'
 
-const container = document.getElementById('app');
-if (container) {
-  const root = createRoot(container);
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-}
+import App from './src/components/App.tsx'
+
+document.addEventListener('DOMContentLoaded', () => {
+  createRoot(document.getElementById('app') as HTMLElement).render(<App />)
+})
