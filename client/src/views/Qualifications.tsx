@@ -96,7 +96,8 @@ export default function Qualifications() {
           <div className="qual-image-container" style={{ marginTop: '1rem' }}>
             <img 
               src="/images/mito-cert.png" 
-              alt="New Zealand Certificate in Business (First Line Management) ROA" 
+              alt="New Zealand Certificate in Business (First Line Management) ROA"
+              style={{ maxWidth: '100%', height: 'auto', borderRadius: '4px', border: '1px solid #6B5CA5' }}
             />
           </div>
         </details>
