@@ -9,6 +9,7 @@ export interface Project {
 }
 
 export const projectsData: Project[] = [
+  
   {
     id: 'acnh-calculator',
     title: 'Animal Crossing New Horizons Friendship Calculator',
@@ -58,5 +59,15 @@ export const projectsData: Project[] = [
       'Designed robust validation loops to ensure inputs are correctly handled and error-free',
       'Built terminal output tables with aligned columns for both yearly and monthly summary views',
     ],
-  }
+  },
+  {
+    id: 'portfolio',
+    title: 'This Portfolio Wesbite!',
+    githubUrl: 'https://github.com/Levi-Taylor-Hotoke-26/portfolio',
+    description: 'A solo project where I can show off my skills for potential clients and employers.',
+    role: [
+      'Built a dynamic user interface using React, Typescript, and CSS',
+      'Used Node.js and Express to set up RESTful routes',
+    ],
+  },
 ];
