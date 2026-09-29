@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
   <section id="about-me">
-    <img width="150px" height="auto" src="client/public/images/179357454.png" alt="an image of me"/>
+    <img width="150px" height="auto" src="/images/179357454.png" alt="an image of me"/>
     <p>I'm a web developer with a background in customer service and a passion for gaming. I've worked many jobs where
       websites or software systems have been inefficient or problematic, and getting them fixed takes months, if not
       years, due to the backlog.

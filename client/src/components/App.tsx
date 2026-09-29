@@ -29,7 +29,7 @@ export default function App() {
           </nav>
           <hr />
           <div className="pikachu-track">
-            <img src="/client/public/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running" />
+            <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running" />
           </div>
           <hr />
         </header>
@@ -48,17 +48,17 @@ export default function App() {
         <footer>
           <hr/>
             <div className="pikachu-track">
-              <img src="/client/public/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running-flipped" />
+              <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running-flipped" />
             </div>
           <hr/>
           <a href="https://github.com/Levi-Taylor-Hotoke-26" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
-            <img width="37px" src="/client/public/images/github-logo.png" alt="GitHub logo" />
+            <img width="37px" src="/images/github-logo.png" alt="GitHub logo" />
           </a>
           <a href="https://www.linkedin.com/in/levi-thomas-taylor" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
-            <img width="29px" src="/client/public/images/linkedin-logo.png" alt="LinkedIn logo" />
+            <img width="29px" src="/images/linkedin-logo.png" alt="LinkedIn logo" />
           </a>
           <a href="https://nz.seek.com/profiles/levi-taylor-7gGVVN6NKD" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', marginLeft: '5px' }}>
-            <img width="29px" src="/client/public/images/seek-logo.png" alt="Seek logo" />
+            <img width="29px" src="/images/seek-logo.png" alt="Seek logo" />
           </a>
         </footer>
       </div>
