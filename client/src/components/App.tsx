@@ -11,8 +11,7 @@ export default function App() {
     <Router>
       <div className="portfolio-app">
         <header>
-          <h1>Levi Taylor - Web Developer</h1>
-          <h2>This is my portfolio for my coding projects!</h2>
+          <h1>Levi Taylor - Web Developer - Portfolio</h1>
 
           <nav>
             <p>

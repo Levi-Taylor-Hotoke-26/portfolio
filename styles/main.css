@@ -42,7 +42,7 @@ hr {
   position: absolute;
   left: -120px;
   image-rendering: pixelated;
-  animation: runAcross 4s linear infinite;
+  animation: runAcross 6s linear infinite;
 }
 
 .pikachu-running-flipped {
@@ -51,7 +51,7 @@ hr {
   position: absolute;
   right: -120px;
   image-rendering: pixelated;
-  animation: runAcrossRightToLeft 4s linear infinite;
+  animation: runAcrossRightToLeft 6s linear infinite;
   transform: scaleX(-1);
 }
 

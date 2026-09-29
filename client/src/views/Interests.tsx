@@ -4,7 +4,7 @@ import { interestsData, InterestItem } from '../data/interestsData.ts';
 export default function Interests() {
   const renderGalleryRow = (title: string, items: InterestItem[]) => (
     <div className="gallery-section">
-      <h4 className="gallery-title">{title}</h4>
+      <h3 className="gallery-title">{title}</h3>
       <div className="horizontal-scroll-container">
         {items.map((item) => (
           <div key={item.id} className="gallery-card">
@@ -18,7 +18,7 @@ export default function Interests() {
 
   return (
     <section id="interests">
-      <h3 className="interests-main-title">Interests</h3>
+      <h2 className="interests-main-title">Interests</h2>
       {renderGalleryRow('Games', interestsData.games)}
       {renderGalleryRow('Movies', interestsData.movies)}
       {renderGalleryRow('TV Shows', interestsData.tvShows)}

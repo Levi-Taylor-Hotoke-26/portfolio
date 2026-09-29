@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <section id="skills">
-      <h3>Skill Stack</h3>
+      <h2>Skill Stack</h2>
 
       <div className="skills-category">
         <span className="category-title">Core Languages & Frontend:</span>

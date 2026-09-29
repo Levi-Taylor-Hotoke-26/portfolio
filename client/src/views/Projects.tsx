@@ -3,13 +3,13 @@ import { projectsData } from '../data/projectData.ts';
 export default function Projects() {
   return (
     <section id="projects">
-      <h3>Projects</h3>
+      <h2>Projects</h2>
       {projectsData.map((project) => (
         <div key={project.id} className="project-card">
-          <h4>
+          <h3>
             {project.title}{' '}
             {project.status && <span style={{ color: 'red' }}>{project.status}</span>}
-          </h4>
+          </h3>
           <p>
             <a href={project.githubUrl} target="_blank" rel="noreferrer">GitHub</a>
             {project.liveUrl && (
@@ -19,8 +19,8 @@ export default function Projects() {
               </>
             )}
           </p>
-          <h5>{project.description}</h5>
-          <h5>My Role:</h5>
+          <h4>{project.description}</h4>
+          <h4>My Role:</h4>
           <ul>
             {project.role.map((task, index) => (
               <li key={index}>{task}</li>
