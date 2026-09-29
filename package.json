@@ -1,12 +1,14 @@
 {
-  "name": "day02-html",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vite",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "preview"
   },
   "keywords": [],
   "author": "",
