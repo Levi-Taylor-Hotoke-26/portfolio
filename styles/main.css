@@ -1,0 +1,75 @@
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight:bold;
+}
+
+body{
+  background-color: rgba(172, 247, 193, 0.2);
+  text-align: center;
+  font-family: monospace;
+}
+
+/* Pikachu */
+.pikachu-track {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 35px;
+  margin: 0.1 0;
+}
+.pikachu-running {
+  height: 35px;
+  width: auto;
+  position: absolute;
+  left: -120px;
+  image-rendering: pixelated;
+  animation: runAcross 4s linear infinite;
+}
+
+@keyframes runAcross {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(100vw + 150px));
+  }
+}
+
+/* Skill Stacks */
+.pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.skill-pill {
+  background-color: #f0f2f5;
+  color: #333;
+  padding: 0.35rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+/* Projects */
+section ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+section li {
+  text-align: left;
+}
+
+iframe {
+  border: solid 2px black;
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px;
+}
