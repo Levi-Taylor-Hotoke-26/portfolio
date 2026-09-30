@@ -324,3 +324,24 @@ iframe {
   display: block;
   object-fit: contain;
 }
+
+/* CV */
+.cv-page-wrapper {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.cv-page-wrapper h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.cv-container {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
