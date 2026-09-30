@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import AboutMe from '../views/AboutMe.tsx';
-import Skills from './Skills.tsx';
+import CV from '../views/CV.tsx';
 import Projects from '../views/Projects.tsx';
 import Games from '../views/Games.tsx';
 import Interests from '../views/Interests.tsx';
@@ -12,13 +12,14 @@ export default function App() {
     <Router>
       <div className="portfolio-app">
         <header>
+          <img width="150px" height="auto" src="/images/179357454.png" alt="an image of me"/>
           <h1>Levi Taylor - Web Developer - Portfolio</h1>
-          <p>Email: Levi.Thomas.Taylor.1996@gmail.com | Phone: 022 019 2651 | CV Download: <a href="/levi-taylor-cv.pdf" download="Levi_Taylor_CV.pdf" className="cv-download-btn">Here</a></p>
+          <p>Levi.Thomas.Taylor.1996@gmail.com | 022 019 2651</p>
           <nav>
             <p>
               <Link to="/">About Me</Link>
               <b> | </b>
-              <Link to="/skills">Skills</Link>
+              <Link to="/CV">Curriculum Vitae</Link>
               <b> | </b>
               <Link to="/qualifications">Qualifications</Link>
               <b> | </b>
@@ -42,7 +43,7 @@ export default function App() {
         <main>
           <Routes>
             <Route path="/" element={<AboutMe />} />
-            <Route path="/skills" element={<Skills />} />
+            <Route path="/CV" element={<CV />} />
             <Route path="/qualifications" element={<Qualifications />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/games" element={<Games />} />
