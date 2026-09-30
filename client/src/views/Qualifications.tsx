@@ -32,7 +32,7 @@ export default function Qualifications() {
 
       {/* Dev Academy */}
       <div className="qualification-card">
-        <h3 className="qual-title">New Zealand Diploma in Software Development(L6)</h3>
+        <h3 className="qual-title">New Zealand Certificate in Applied Software Development(L6)</h3>
         <p className="qual-issuer">Dev Academy</p>
         <p className="qual-date">2026</p>
         
@@ -41,7 +41,7 @@ export default function Qualifications() {
           <div className="qual-image-container" style={{ marginTop: '1rem' }}>
             <img 
               src="/images/placeholder" 
-              alt="Diploma in Software Development official certificate - to be awarded in October 2026" 
+              alt="Certificate in Software Development official certificate - Awarded in October 2026, certificate to be received by November." 
               style={{ maxWidth: '100%', height: 'auto', borderRadius: '4px', border: '1px solid #6B5CA5' }} 
             />
           </div>
