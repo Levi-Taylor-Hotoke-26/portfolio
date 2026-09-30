@@ -30,6 +30,15 @@ export default function Projects() {
                 <li key={index}>{task}</li>
               ))}
             </ul>
+            <p className="project-motivation">Motivation:{project.motivation.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}</p>
+            <p className="project-learned">What I Learned:{project.learned.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}</p>
+            <p className="project-improve">Future Improvements:{project.improvements.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}</p>
           </div>
         ))}
       </div>
