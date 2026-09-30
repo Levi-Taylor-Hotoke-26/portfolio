@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import AboutMe from '../views/AboutMe.tsx';
-import Skills from '../views/Skills.tsx';
+import Skills from './Skills.tsx';
 import Projects from '../views/Projects.tsx';
 import Games from '../views/Games.tsx';
 import Interests from '../views/Interests.tsx';
@@ -13,7 +13,7 @@ export default function App() {
       <div className="portfolio-app">
         <header>
           <h1>Levi Taylor - Web Developer - Portfolio</h1>
-
+          <p>Email: Levi.Thomas.Taylor.1996@gmail.com | Phone: 022 019 2651 | CV Download: <a href="/levi-taylor-cv.pdf" download="Levi_Taylor_CV.pdf" className="cv-download-btn">Here</a></p>
           <nav>
             <p>
               <Link to="/">About Me</Link>
