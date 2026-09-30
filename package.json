@@ -23,6 +23,7 @@
   "packageManager": "pnpm@11.23.0",
   "type": "module",
   "dependencies": {
+    "@auth0/auth0-react": "^2.27.0",
     "express": "^5.2.1",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",

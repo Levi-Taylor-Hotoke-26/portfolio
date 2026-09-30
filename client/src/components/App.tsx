@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import AboutMe from '../views/AboutMe.tsx'; // You can extract your About section into this view too!
+import AboutMe from '../views/AboutMe.tsx';
 import Skills from '../views/Skills.tsx';
 import Projects from '../views/Projects.tsx';
 import Games from '../views/Games.tsx';
-import Interests from '../views/Interests.tsx'
+import Interests from '../views/Interests.tsx';
 import Qualifications from '../views/Qualifications.tsx';
+import AuthButton from './AuthButton.tsx';
 
 export default function App() {
   return (
@@ -28,6 +29,9 @@ export default function App() {
               <Link to="/interests">Interests</Link>
             </p>
           </nav>
+
+          <AuthButton />
+
           <hr />
           <div className="pikachu-track">
             <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running" />
