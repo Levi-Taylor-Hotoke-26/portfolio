@@ -21,7 +21,7 @@ export default function App() {
             </div>
             <div className="header-right">
               <h1>Levi Taylor - Web Developer - Portfolio</h1>
-              <p>Levi.Thomas.Taylor.1996@gmail.com | 022 019 2651</p>
+              
               <nav>
                 <p>
                   <Link to="/">About Me</Link>
@@ -45,6 +45,7 @@ export default function App() {
           <hr />
           <div className="pikachu-track">
             <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running" />
+            <p><a href="mailto:levi.thomas.taylor.1996@gmail.com">Levi.Thomas.Taylor.1996@gmail.com</a> | <a href="tel:+64220192651">022 019 2651</a></p>
           </div>
           <hr />
         </header>

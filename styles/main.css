@@ -13,10 +13,34 @@ header h1, header h2 {
   color: #4C1036;
 }
 
+.header {
+  position: relative; /* Allows absolute positioning for the auth button inside */
+  padding: 1.5rem 1rem 0 1rem;
+}
+
+/* Pin the login button to the top right */
+.auth {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+
+/* Flex container to place image on the left and text content on the right */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto 1rem auto;
+  text-align: left; /* Aligns text neatly to the left next to the image */
+}
+
 nav a {
   text-decoration: none;
   color: #72195A;
   font-weight: bold;
+  font-size: 14px;
   transition: color 0.1s ease;
 }
 
@@ -25,6 +49,11 @@ nav a:hover {
 }
 
 /* Pikachu */
+.pikachu-track a {
+  text-decoration: none;
+  color: #72195A;
+}
+
 .pikachu-track {
   width: 100%;
   overflow: hidden;
@@ -349,6 +378,7 @@ iframe {
 }
 
 /* CV */
+
 .cv-page-wrapper {
   max-width: 900px;
   margin: 2rem auto;
@@ -358,7 +388,7 @@ iframe {
 .cv-page-wrapper h2 {
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
-  color: #333;
+  color: #4C1036;
 }
 
 .cv-container {
