@@ -11,6 +11,14 @@ export default function Projects() {
             <h3 className="project-title">
               {project.title} <span className="project-status">{project.status}</span>
             </h3>
+
+            {project.imageUrl && (
+  <img 
+    src={project.imageUrl} 
+    alt={`Screenshot of ${project.title}`} 
+    className="project-img" 
+  />
+)}
             
             <p className="project-description">{project.description}</p>
             

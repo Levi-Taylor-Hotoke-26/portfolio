@@ -170,6 +170,15 @@ iframe {
   color: #C6D8FF;
 }
 
+.project-img {
+  height: 300px;
+  display: block;
+  width: auto;
+  margin: 1rem auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
 .project-title {
   margin: 0 0 0.5rem 0;
   color: #C6D8FF;
