@@ -12,16 +12,6 @@ export default function Projects() {
               {project.title} <span className="project-status">{project.status}</span>
             </h3>
             
-            <div className="project-links">
-              {project.githubUrl && (
-                <a href={project.githubUrl} target="_blank" rel="noreferrer">GitHub</a>
-              )}
-              {project.githubUrl && project.liveUrl && <span> | </span>}
-              {project.liveUrl && (
-                <a href={project.liveUrl} target="_blank" rel="noreferrer">Deployed Site</a>
-              )}
-            </div>
-
             <p className="project-description">{project.description}</p>
             
             <p className="role-heading">My Role:</p>
@@ -30,15 +20,45 @@ export default function Projects() {
                 <li key={index}>{task}</li>
               ))}
             </ul>
-            <p className="project-motivation">Motivation:{project.motivation.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}</p>
-            <p className="project-learned">What I Learned:{project.learned.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}</p>
-            <p className="project-improve">Future Improvements:{project.improvements.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}</p>
+
+            {project.motivation.length > 0 && project.motivation[0] !== "" && (
+              <div className="project-section-block">
+                <p className="project-subheading">Motivation:</p>
+                {project.motivation.map((paragraph, index) => (
+                  <p key={index} className="project-text-block">{paragraph}</p>
+                ))}
+              </div>
+            )}
+
+            {project.learned && project.learned.length > 0 && (
+              <div className="project-section-block">
+                <p className="project-subheading">What I Learned:</p>
+                <p className="project-text-block">{project.learned}</p>
+              </div>
+            )}
+
+            {project.improvements && project.improvements.length > 0 && (
+              <div className="project-section-block">
+                <p className="project-subheading">Future Improvements:</p>
+                <p className="project-text-block">{project.improvements}</p>
+              </div>
+            )}
+
+            {(project.githubUrl || project.liveUrl) && (
+              <div className="project-links">
+                {project.githubUrl && (
+                  <a href={project.githubUrl} target="_blank" rel="noreferrer" className="project-link-btn">
+                    GitHub
+                  </a>
+                )}
+                {project.githubUrl && project.liveUrl && <span className="link-separator">|</span>}
+                {project.liveUrl && (
+                  <a href={project.liveUrl} target="_blank" rel="noreferrer" className="project-link-btn">
+                    Deployed Site
+                  </a>
+                )}
+              </div>
+            )}
           </div>
         ))}
       </div>

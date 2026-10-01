@@ -12,26 +12,35 @@ export default function App() {
     <Router>
       <div className="portfolio-app">
         <header>
-          <img width="150px" height="auto" src="/images/179357454.png" alt="an image of me"/>
-          <h1>Levi Taylor - Web Developer - Portfolio</h1>
-          <p>Levi.Thomas.Taylor.1996@gmail.com | 022 019 2651</p>
-          <nav>
-            <p>
-              <Link to="/">About Me</Link>
-              <b> | </b>
-              <Link to="/CV">Curriculum Vitae</Link>
-              <b> | </b>
-              <Link to="/qualifications">Qualifications</Link>
-              <b> | </b>
-              <Link to="/projects">Projects</Link>
-              <b> | </b>
-              <Link to="/games">Games</Link>
-              <b> | </b>
-              <Link to="/interests">Interests</Link>
-            </p>
-          </nav>
+          <div className="auth">
+            <AuthButton />
+          </div>
+          <div className="header-content">
+            <div className="header-left">
+              <img width="150px" height="auto" src="/images/179357454.png" alt="an image of me"/>
+            </div>
+            <div className="header-right">
+              <h1>Levi Taylor - Web Developer - Portfolio</h1>
+              <p>Levi.Thomas.Taylor.1996@gmail.com | 022 019 2651</p>
+              <nav>
+                <p>
+                  <Link to="/">About Me</Link>
+                  <b> | </b>
+                  <Link to="/CV">Curriculum Vitae</Link>
+                  <b> | </b>
+                  <Link to="/qualifications">Qualifications</Link>
+                  <b> | </b>
+                  <Link to="/projects">Projects</Link>
+                  <b> | </b>
+                  <Link to="/games">Games</Link>
+                  <b> | </b>
+                  <Link to="/interests">Interests</Link>
+                </p>
+              </nav>
+            </div>
+          </div>
 
-          <AuthButton />
+          
 
           <hr />
           <div className="pikachu-track">
