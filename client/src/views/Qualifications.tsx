@@ -8,7 +8,7 @@ export default function Qualifications() {
         <h3 className="qual-title">New Zealand Diploma in Web Development and Design(L5)</h3>
         <p className="qual-issuer">Mission Ready HQ</p>
         <p className="qual-date">Expected to complete in 2027</p>
-        
+        <div className="qual-btns">
         <details className="qual-dropdown">
           <summary className="qual-summary-btn">View Certificate</summary>
           <div className="qual-image-container" style={{ marginTop: '1rem' }}>
@@ -29,13 +29,14 @@ export default function Qualifications() {
           </a>
       </div>
       </div>
+      </div>
 
       {/* Dev Academy */}
       <div className="qualification-card">
         <h3 className="qual-title">New Zealand Certificate in Applied Software Development(L6)</h3>
         <p className="qual-issuer">Dev Academy</p>
         <p className="qual-date">2026</p>
-        
+        <div className="qual-btns">
         <details className="qual-dropdown">
           <summary className="qual-summary-btn">View Certificate</summary>
           <div className="qual-image-container" style={{ marginTop: '1rem' }}>
@@ -56,6 +57,7 @@ export default function Qualifications() {
           </a>
       </div>
       </div>
+      </div>
 
       {/* Yoobee */}
       <div className="qualification-card">
@@ -63,7 +65,7 @@ export default function Qualifications() {
         <p className="qual-issuer">Yoobee College</p>
         <p className="qual-date">2026</p>
         <p className="qual-grade">Grade: A (3.7 GPA)</p>
-        
+        <div className="qual-btns">
         <details className="qual-dropdown">
           <summary className="qual-summary-btn">View Certificate</summary>
           <div className="qual-image-container" style={{ marginTop: '1rem' }}>
@@ -84,13 +86,14 @@ export default function Qualifications() {
           </a>
       </div>
       </div>
+      </div>
 
       {/* Mito */}
       <div className="qualification-card">
         <h3 className="qual-title">New Zealand Certificate in Business (First Line Management)(L4)</h3>
         <p className="qual-issuer">MITO</p>
         <p className="qual-date">2021</p>
-        
+        <div className="qual-btns">
         <details className="qual-dropdown">
           <summary className="qual-summary-btn">View Certificate</summary>
           <div className="qual-image-container" style={{ marginTop: '1rem' }}>
@@ -109,6 +112,7 @@ export default function Qualifications() {
           alt="MITO logo"
           style={{ maxWidth: '100%', height: 'auto', borderRadius: '4px' }} />
           </a>
+      </div>
       </div>
       </div>
     </section>
