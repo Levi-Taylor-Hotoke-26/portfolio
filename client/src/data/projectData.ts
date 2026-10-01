@@ -4,6 +4,7 @@ export interface Project {
   status?: string;
   githubUrl: string;
   liveUrl?: string;
+  imageUrl?: string;
   description: string;
   role: string[];
   motivation: string[];
@@ -18,6 +19,7 @@ export const projectsData: Project[] = [
     title: 'Momodex',
     githubUrl: 'https://github.com/Hotoke-2026/Momodex',
     liveUrl: 'https://momodex.onrender.com/',
+    imageUrl: '/images/momodex.png',
     description: 'A Kiwi based project to identify creatures in the wild and use them to battle, created in a team of five for Dev Academy.',
     role: [
       'Configured and queried relational databases using SQLite, Knex, cloud-based Turso',
@@ -40,6 +42,7 @@ export const projectsData: Project[] = [
     status: '(In Progress)',
     githubUrl: 'https://github.com/Hotoke-2026/acnh-friendship-calculator',
     liveUrl: 'https://acnh-friendship-calculator.onrender.com/',
+    imageUrl: '/images/acnh.png',
     description: 'A solo project for Animal Crossing New Horizons players to log their interactions with villagers and track their friendship levels.',
     role: [
       'Built a dynamic user interface using React, Typescript, and Sass CSS',
@@ -61,6 +64,7 @@ export const projectsData: Project[] = [
     id: 'spam',
     title: 'Spam',
     githubUrl: 'https://github.com/Hotoke-2026/Spam',
+    imageUrl: '/images/spam.png',
     description: 'A web app with games, community ratings, and other content focused on spam meat, created in a team of four for Dev Academy.',
     role: [
       'Used Node.js and Express to set up API endpoints and RESTful routes',
@@ -81,6 +85,7 @@ export const projectsData: Project[] = [
     id: 'kiwisaver-calculator',
     title: 'Kiwisaver Investment Calculator',
     githubUrl: 'https://github.com/Levi-Taylor-Hotoke-26/kiwisaver-calculator',
+    imageUrl: '/images/kiwisaver.png',
     description: 'A solo Python-based command-line tool created for a Yoobee assessment to calculate and project investment growth across multiple interest rates over time.',
     role: [
       'Developed core financial calculation logic',
