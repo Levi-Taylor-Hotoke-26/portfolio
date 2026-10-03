@@ -21,7 +21,7 @@ export default function App() {
           </div>
           <div className="header-content">
             <div className="header-left">
-              <img width="150px" height="auto" src="/images/179357454.png" alt="an image of me"/>
+              <img width="150px" height="auto" src="/images/179357454.png" alt="an image of me" />
             </div>
 
             <div className="header-right">
@@ -33,20 +33,20 @@ export default function App() {
           <div className="pikachu-track">
             <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running" />
             <nav>
-                <p>
-                  <Link to="/" className="nav-default">About Me</Link>
-                  <b> | </b>
-                  <Link to="/CV" className="nav-cv">Curriculum Vitae</Link>
-                  <b> | </b>
-                  <Link to="/qualifications" className="nav-qualifications">Qualifications</Link>
-                  <b> | </b>
-                  <Link to="/projects" className="nav-projects">Projects</Link>
-                  <b> | </b>
-                  <Link to="/games" className="nav-games">Games</Link>
-                  <b> | </b>
-                  <Link to="/contact-me" className="nav-contact">Contact Me</Link>
-                </p>
-              </nav>
+              <p>
+                <Link to="/" className="nav-default">About Me</Link>
+                <b> | </b>
+                <Link to="/CV" className="nav-cv">Curriculum Vitae</Link>
+                <b> | </b>
+                <Link to="/qualifications" className="nav-qualifications">Qualifications</Link>
+                <b> | </b>
+                <Link to="/projects" className="nav-projects">Projects</Link>
+                <b> | </b>
+                <Link to="/games" className="nav-games">Games</Link>
+                <b> | </b>
+                <Link to="/contact-me" className="nav-contact">Contact Me</Link>
+              </p>
+            </nav>
           </div>
           <hr />
         </header>
@@ -63,20 +63,21 @@ export default function App() {
         </main>
 
         <footer>
-          <hr/>
-            <div className="pikachu-track">
-              <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running-flipped" />
-            </div>
-          <hr/>
-          <a href="https://github.com/Levi-Taylor-Hotoke-26" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
-            <img width="37px" src="/images/github-logo.png" alt="GitHub logo" />
-          </a>
-          <a href="https://www.linkedin.com/in/levi-thomas-taylor" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
-            <img width="29px" src="/images/linkedin-logo.png" alt="LinkedIn logo" />
-          </a>
-          <a href="https://nz.seek.com/profiles/levi-taylor-7gGVVN6NKD" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', marginLeft: '5px' }}>
-            <img width="29px" src="/images/seek-logo.png" alt="Seek logo" />
-          </a>
+          <hr />
+          <div className="pikachu-track">
+            <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running-flipped" />
+
+            <a href="https://github.com/Levi-Taylor-Hotoke-26" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+              <img width="37px" src="/images/github-logo.png" alt="GitHub logo" />
+            </a>
+            <a href="https://www.linkedin.com/in/levi-thomas-taylor" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+              <img width="29px" src="/images/linkedin-logo.png" alt="LinkedIn logo" />
+            </a>
+            <a href="https://nz.seek.com/profiles/levi-taylor-7gGVVN6NKD" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', marginLeft: '5px' }}>
+              <img width="29px" src="/images/seek-logo.png" alt="Seek logo" />
+            </a>
+          </div>
+          <hr />
         </footer>
         <BackToTop />
       </div>
