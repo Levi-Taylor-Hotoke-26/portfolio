@@ -6,6 +6,7 @@ import Games from '../views/Games.tsx';
 import Interests from '../views/Interests.tsx';
 import Qualifications from '../views/Qualifications.tsx';
 import AuthButton from './AuthButton.tsx';
+import ContactMe from '../views/ContactMe.tsx';
 
 export default function App() {
   return (
@@ -19,10 +20,19 @@ export default function App() {
             <div className="header-left">
               <img width="150px" height="auto" src="/images/179357454.png" alt="an image of me"/>
             </div>
+
             <div className="header-right">
-              <h1>Levi Taylor - Web Developer - Portfolio</h1>
+              <h1>Levi Taylor - Web Developer</h1>
               
-              <nav>
+              
+
+            </div>
+
+          </div>
+          <hr />
+          <div className="pikachu-track">
+            <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running" />
+            <nav>
                 <p>
                   <Link to="/">About Me</Link>
                   <b> | </b>
@@ -34,18 +44,9 @@ export default function App() {
                   <b> | </b>
                   <Link to="/games">Games</Link>
                   <b> | </b>
-                  <Link to="/interests">Interests</Link>
+                  <Link to="/contact-me">Contact Me</Link>
                 </p>
               </nav>
-            </div>
-          </div>
-
-          
-
-          <hr />
-          <div className="pikachu-track">
-            <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running" />
-            <p><a href="mailto:levi.thomas.taylor.1996@gmail.com">Levi.Thomas.Taylor.1996@gmail.com</a> | <a href="tel:+64220192651">022 019 2651</a></p>
           </div>
           <hr />
         </header>
@@ -57,7 +58,7 @@ export default function App() {
             <Route path="/qualifications" element={<Qualifications />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/games" element={<Games />} />
-            <Route path="/interests" element={<Interests />} />
+            <Route path="/contact-me" element={<ContactMe />} />
           </Routes>
         </main>
 

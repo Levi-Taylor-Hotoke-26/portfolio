@@ -1,4 +1,5 @@
 import Skills from "../components/Skills.tsx";
+import Interests from "./Interests.tsx";
 
 export default function AboutMe() {
   return (
@@ -29,6 +30,10 @@ export default function AboutMe() {
 
   <section id="skills">
     <Skills />
+  </section>
+
+  <section id="interests">
+    <Interests />
   </section>
   </>
   );

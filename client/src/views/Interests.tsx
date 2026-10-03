@@ -1,4 +1,3 @@
-import React from 'react';
 import { interestsData, InterestItem } from '../data/interestsData.ts';
 
 export default function Interests() {
