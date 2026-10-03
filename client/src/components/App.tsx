@@ -3,7 +3,6 @@ import AboutMe from '../views/AboutMe.tsx';
 import CV from '../views/CV.tsx';
 import Projects from '../views/Projects.tsx';
 import Games from '../views/Games.tsx';
-import Interests from '../views/Interests.tsx';
 import Qualifications from '../views/Qualifications.tsx';
 import AuthButton from './AuthButton.tsx';
 import ContactMe from '../views/ContactMe.tsx';
@@ -23,9 +22,6 @@ export default function App() {
 
             <div className="header-right">
               <h1>Levi Taylor - Web Developer</h1>
-              
-              
-
             </div>
 
           </div>
