@@ -28,7 +28,7 @@ export default function BackToTop() {
   }
 
   return (
-    <button onClick={goToTop} className="back-to-top-btn" aria-label="Back to top">
+    <button onClick={goToTop} className="back-to-top-btn nav-back" aria-label="Back to top">
       ↑ Top
     </button>
   );

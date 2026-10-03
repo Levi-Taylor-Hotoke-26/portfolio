@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section id="projects">
       <h2 className="projects-main-title">Projects</h2>
-      
+
       <div className="projects-container">
         {projectsData.map((project) => (
           <div key={project.id} className="project-card">
@@ -13,15 +13,15 @@ export default function Projects() {
             </h3>
 
             {project.imageUrl && (
-  <img 
-    src={project.imageUrl} 
-    alt={`Screenshot of ${project.title}`} 
-    className="project-img" 
-  />
-)}
-            
+              <img
+                src={project.imageUrl}
+                alt={`Screenshot of ${project.title}`}
+                className="project-img"
+              />
+            )}
+
             <p className="project-description">{project.description}</p>
-            
+
             <p className="role-heading">My Role:</p>
             <ul className="role-list">
               {project.role.map((task, index) => (
@@ -55,13 +55,13 @@ export default function Projects() {
             {(project.githubUrl || project.liveUrl) && (
               <div className="project-links">
                 {project.githubUrl && (
-                  <a href={project.githubUrl} target="_blank" rel="noreferrer" className="project-link-btn">
+                  <a href={project.githubUrl} target="_blank" rel="noreferrer" className="project-link-btn nav-redirect">
                     GitHub
                   </a>
                 )}
                 {project.githubUrl && project.liveUrl && <span className="link-separator">|</span>}
                 {project.liveUrl && (
-                  <a href={project.liveUrl} target="_blank" rel="noreferrer" className="project-link-btn">
+                  <a href={project.liveUrl} target="_blank" rel="noreferrer" className="project-link-btn nav-redirect">
                     Deployed Site
                   </a>
                 )}
