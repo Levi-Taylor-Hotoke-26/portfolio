@@ -122,6 +122,15 @@ hr {
 }
 
 /* Skill Stacks */
+
+#skills {
+  display: block;
+  max-width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .pill-group {
   display: flex;
   flex-wrap: wrap;
