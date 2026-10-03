@@ -568,3 +568,28 @@ iframe {
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
+
+/* Back to Top */
+.back-to-top-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  background-color: #72195A;
+  color: #C6D8FF;
+  border: 1px solid #6B5CA5;
+  border-radius: 50px;
+  padding: 0.6rem 1rem;
+  font-family: monospace, sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.2s ease, transform 0.2s ease, color 0.2s ease;
+}
+
+.back-to-top-btn:hover {
+  background-color: #4C1036;
+  color: #C6D8FF;
+  transform: scale(1.1);
+}

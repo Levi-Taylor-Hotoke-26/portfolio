@@ -6,6 +6,7 @@ import Games from '../views/Games.tsx';
 import Qualifications from '../views/Qualifications.tsx';
 import AuthButton from './AuthButton.tsx';
 import ContactMe from '../views/ContactMe.tsx';
+import BackToTop from './BackToTop.tsx';
 
 export default function App() {
   return (
@@ -74,6 +75,7 @@ export default function App() {
             <img width="29px" src="/images/seek-logo.png" alt="Seek logo" />
           </a>
         </footer>
+        <BackToTop />
       </div>
     </Router>
   );
