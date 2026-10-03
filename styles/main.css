@@ -3,7 +3,55 @@ body{
   text-align: center;
   font-family: monospace, sans-serif;
   color: #4C1036;
+  cursor: url('https://runescape.wiki/images/Default_action_cursor.png') 4 4, auto;
 }
+
+body.cursor-default {
+  cursor: url('https://runescape.wiki/images/Default_action_cursor.png') 4 4, auto;
+}
+body.cursor-read {
+  cursor: url('https://runescape.wiki/images/Read_cursor.png') 4 4, auto;
+}
+body.cursor-invention {
+  cursor: url('https://runescape.wiki/images/Invention_cursor.png') 4 4, auto;
+}
+body.cursor-smithing {
+  cursor: url('https://runescape.wiki/images/Smithing_cursor.png') 4 4, auto;
+}
+body.cursor-game {
+  cursor: url('https://runescape.wiki/images/Push_cursor.png?63f1d') 4 4, auto;
+}
+body.cursor-speech {
+  cursor: url('https://runescape.wiki/images/Speech_cursor.png') 4 4, auto;
+}
+
+body.cursor-redirect {
+  cursor: url('https://runescape.wiki/images/Jump_cursor.png?92dc5') 4 4, auto;
+}
+
+body.cursor-login {
+  cursor: url('https://runescape.wiki/images/Cursor_unlocking.png?d4859') 4 4, auto;
+}
+
+body.cursor-expand {
+  cursor: url('https://runescape.wiki/images/Mining_cursor.png?fcc14') 4 4, auto;
+}
+
+body.cursor-back-to-top {
+  cursor: url('https://runescape.wiki/images/Agility_cursor.png?f5e36') 4 4, auto;
+}
+
+/* Navbar Link Hover States */
+.nav-default:hover { cursor: url('https://runescape.wiki/images/Default_action_cursor.png') 4 4, pointer !important; }
+.nav-cv:hover { cursor: url('https://runescape.wiki/images/Read_cursor.png') 4 4, pointer !important; }
+.nav-qualifications:hover { cursor: url('https://runescape.wiki/images/Invention_cursor.png') 4 4, pointer !important; }
+.nav-projects:hover { cursor: url('https://runescape.wiki/images/Smithing_cursor.png') 4 4, pointer !important; }
+.nav-games:hover { cursor: url('https://runescape.wiki/images/Push_cursor.png?63f1d') 4 4, pointer !important; }
+.nav-contact:hover { cursor: url('https://runescape.wiki/images/Speech_cursor.png') 4 4, pointer !important; }
+.nav-redirect:hover { cursor: url('https://runescape.wiki/images/Jump_cursor.png?92dc5') 4 4, pointer !important; }
+.nav-login:hover { cursor: url('https://runescape.wiki/images/Cursor_unlocking.png?d4859') 4 4, pointer !important; }
+.nav-expand:hover { cursor: url('https://runescape.wiki/images/Mining_cursor.png?fcc14') 4 4, pointer !important; }
+.nav-back:hover { cursor: url('https://runescape.wiki/images/Agility_cursor.png?f5e36') 4 4, pointer !important; }
 
 main img[alt="an image of me"] {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3));

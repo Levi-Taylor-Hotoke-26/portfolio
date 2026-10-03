@@ -7,21 +7,20 @@ export default function AuthButton() {
     <div className="auth-container">
       {isAuthenticated ? (
         <div>
-          {user?.picture && <img src={user.picture} alt={user.name}/>}
           <p>Welcome, {user?.name}!</p>
           <button
             onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}
-            className="log-button"
-            >
-              Log Out
+            className="log-button nav-login"
+          >
+            Log Out
           </button>
         </div>
       ) : (
         <button
           onClick={() => loginWithRedirect()}
-          className="log-button"
-          >
-            Log In via Auth0
+          className="log-button nav-login"
+        >
+          Log In via Auth0
         </button>
       )}
     </div>

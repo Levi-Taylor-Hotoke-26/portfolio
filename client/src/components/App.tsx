@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import AboutMe from '../views/AboutMe.tsx';
 import CV from '../views/CV.tsx';
 import Projects from '../views/Projects.tsx';
@@ -7,6 +7,9 @@ import Qualifications from '../views/Qualifications.tsx';
 import AuthButton from './AuthButton.tsx';
 import ContactMe from '../views/ContactMe.tsx';
 import BackToTop from './BackToTop.tsx';
+import CursorController from './CursorController.tsx';
+
+<CursorController />
 
 export default function App() {
   return (
@@ -31,17 +34,17 @@ export default function App() {
             <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running" />
             <nav>
                 <p>
-                  <Link to="/">About Me</Link>
+                  <Link to="/" className="nav-default">About Me</Link>
                   <b> | </b>
-                  <Link to="/CV">Curriculum Vitae</Link>
+                  <Link to="/CV" className="nav-cv">Curriculum Vitae</Link>
                   <b> | </b>
-                  <Link to="/qualifications">Qualifications</Link>
+                  <Link to="/qualifications" className="nav-qualifications">Qualifications</Link>
                   <b> | </b>
-                  <Link to="/projects">Projects</Link>
+                  <Link to="/projects" className="nav-projects">Projects</Link>
                   <b> | </b>
-                  <Link to="/games">Games</Link>
+                  <Link to="/games" className="nav-games">Games</Link>
                   <b> | </b>
-                  <Link to="/contact-me">Contact Me</Link>
+                  <Link to="/contact-me" className="nav-contact">Contact Me</Link>
                 </p>
               </nav>
           </div>
@@ -65,13 +68,13 @@ export default function App() {
               <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running-flipped" />
             </div>
           <hr/>
-          <a href="https://github.com/Levi-Taylor-Hotoke-26" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+          <a href="https://github.com/Levi-Taylor-Hotoke-26" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
             <img width="37px" src="/images/github-logo.png" alt="GitHub logo" />
           </a>
-          <a href="https://www.linkedin.com/in/levi-thomas-taylor" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+          <a href="https://www.linkedin.com/in/levi-thomas-taylor" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
             <img width="29px" src="/images/linkedin-logo.png" alt="LinkedIn logo" />
           </a>
-          <a href="https://nz.seek.com/profiles/levi-taylor-7gGVVN6NKD" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', marginLeft: '5px' }}>
+          <a href="https://nz.seek.com/profiles/levi-taylor-7gGVVN6NKD" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', marginLeft: '5px' }}>
             <img width="29px" src="/images/seek-logo.png" alt="Seek logo" />
           </a>
         </footer>
