@@ -289,7 +289,6 @@ iframe {
   font-weight: bold;
 }
 
-
 .project-description {
   font-size: 0.95rem;
   margin-bottom: 1rem;
@@ -485,6 +484,23 @@ iframe {
 }
 
 /* CV */
+
+.btn-download {
+    display: inline-block;
+    background-color: #6c5ce7;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+    margin: 5px;
+}
+
+.btn-download:hover {
+    background-color: #5b4bc4;
+    cursor: url("https://runescape.wiki/images/Pickup_cursor.png?447fb") 4 4, pointer !important;
+}
 
 .cv-page-wrapper {
   max-width: 900px;
