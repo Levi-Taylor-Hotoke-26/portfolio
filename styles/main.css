@@ -3,11 +3,11 @@ body{
   text-align: center;
   font-family: monospace, sans-serif;
   color: #4C1036;
-  cursor: url('https://runescape.wiki/images/Default_action_cursor.png') 4 4, auto;
+  cursor: url('https://runescape.wiki/images/Default_cursor.png?04ece') 4 4, auto;
 }
 
 body.cursor-default {
-  cursor: url('https://runescape.wiki/images/Default_action_cursor.png') 4 4, auto;
+  cursor: url('https://runescape.wiki/images/Default_cursor.png?04ece') 4 4, auto;
 }
 body.cursor-read {
   cursor: url('https://runescape.wiki/images/Read_cursor.png') 4 4, auto;
