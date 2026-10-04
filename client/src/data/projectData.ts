@@ -40,7 +40,7 @@ export const projectsData: Project[] = [
     id: 'acnh-calculator',
     title: 'Animal Crossing New Horizons Friendship Calculator',
     status: '(In Progress)',
-    githubUrl: 'https://github.com/Hotoke-2026/acnh-friendship-calculator',
+    githubUrl: 'https://github.com/Levi-Taylor-Hotoke-26/acnh-friendship-calculator',
     liveUrl: 'https://acnh-friendship-calculator.onrender.com/',
     imageUrl: '/images/acnh.png',
     description: 'A solo project for Animal Crossing New Horizons players to log their interactions with villagers and track their friendship levels.',
