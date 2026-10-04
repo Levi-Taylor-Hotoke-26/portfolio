@@ -25,7 +25,8 @@ export default function App() {
             </div>
 
             <div className="header-right">
-              <h1>Levi Taylor - Web Developer</h1>
+              <h1>Levi Taylor - Full Stack Developer</h1>
+              <h3>Currently Studying Web Development with MissionReadyHQ</h3>
             </div>
 
           </div>
