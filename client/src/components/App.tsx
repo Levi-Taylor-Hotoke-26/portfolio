@@ -8,6 +8,8 @@ import AuthButton from './AuthButton.tsx';
 import ContactMe from '../views/ContactMe.tsx';
 import BackToTop from './BackToTop.tsx';
 import CursorController from './CursorController.tsx';
+import AcRadioPlayer from "../components/MusicPlayer.tsx";
+import gamePlaylist from '../data/musicData.ts';
 
 <CursorController />
 
@@ -18,6 +20,9 @@ export default function App() {
         <header>
           <div className="auth">
             <AuthButton />
+          </div>
+          <div>
+            <AcRadioPlayer playlist={gamePlaylist} />
           </div>
           <div className="header-content">
             <div className="header-left">

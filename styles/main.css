@@ -666,3 +666,138 @@ iframe {
   color: #C6D8FF;
   transform: scale(1.1);
 }
+
+/* K.K. Slider Stereo */
+
+.ac-radio-container {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background-color: #fff9e6;
+  border: 4px solid #8b5a2b;
+  border-radius: 24px;
+  padding: 16px;
+  width: 260px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  font-family: monospace, sans-serif;
+  transition: all 0.3s ease;
+}
+
+.ac-radio-container.minimized {
+  width: auto;
+  padding: 10px 14px;
+  border-radius: 30px;
+}
+
+.ac-radio-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #5c4033;
+}
+
+.ac-radio-container:not(.minimized) .ac-radio-header {
+  margin-bottom: 8px;
+}
+
+.ac-minimize-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  color: #8b5a2b;
+  margin-left: auto;
+  padding: 2px 6px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.ac-minimize-btn:hover {
+  background-color: #f3e5ab;
+}
+
+.ac-dialogue-box {
+  background-color: #ffffff;
+  border: 2px solid #dcd3b2;
+  border-radius: 12px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  font-size: 12px;
+  color: #4a3b32;
+  text-align: center;
+}
+
+.track-label {
+  margin: 0;
+  font-size: 10px;
+  color: #8c7355;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.track-name {
+  margin: 2px 0;
+  font-size: 13px;
+}
+
+.track-artist {
+  margin: 0;
+  font-size: 11px;
+  color: #6b7280;
+}
+
+.ac-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.ac-btn {
+  background-color: #f3e5ab;
+  border: 2px solid #b89753;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  transition: transform 0.1s, background-color 0.2s;
+}
+
+.ac-btn:hover {
+  background-color: #e6d28c;
+  transform: scale(1.05);
+}
+
+.ac-play-btn {
+  width: 44px;
+  height: 44px;
+  background-color: #90be6d;
+  border-color: #588157;
+  color: white;
+  font-size: 16px;
+}
+
+.ac-play-btn:hover {
+  background-color: #739e53;
+}
+
+.ac-volume-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.ac-volume-slider {
+  flex: 1;
+  accent-color: #90be6d;
+  cursor: pointer;
+}
