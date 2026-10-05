@@ -1,3 +1,5 @@
+import DancingVillager from "../components/DancingVillager.tsx";
+
 export default function CV() {
   return (
     <div className="cv-page-wrapper">

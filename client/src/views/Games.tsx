@@ -14,7 +14,7 @@ export default function Games() {
         </button>
       </p>
       <iframe height="650px" src="https://levi-taylor-hotoke-26.github.io/poliwrath-romp/" title="Poliwrath Romp"></iframe>
-
+      <hr></hr>
       <h3>Who's That Pokemon!</h3>
       <p>
         <button className="game-btn nav-redirect">
@@ -26,7 +26,7 @@ export default function Games() {
         </button>
       </p>
       <iframe height="1000px" src="https://levi-taylor-hotoke-26.github.io/who-is-that/" title="Who's That Pokemon"></iframe>
-
+      <hr></hr>
       <h3>Quilava Quiz</h3>
       <p>
         <button className="game-btn nav-redirect">

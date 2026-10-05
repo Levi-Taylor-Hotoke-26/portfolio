@@ -362,7 +362,6 @@ iframe {
 
 .gallery-title {
   color: #72195A;
-  border-bottom: 2px solid #6B5CA5;
   padding-bottom: 0.5rem;
   text-align: center;
 }
@@ -666,3 +665,26 @@ iframe {
   color: #C6D8FF;
   transform: scale(1.1);
 }
+
+/* Animal Crossing Dancing Villager */
+
+.dancing-animal-left, 
+.dancing-animal-right { 
+  position: absolute; 
+  z-index: 10; 
+  height: 90px; 
+  width: auto; 
+} 
+
+.dancing-animal-left { left: 10%; } 
+.dancing-animal-right { right: 10%; } 
+
+.left-1, .right-1 { top: 350px; } 
+.left-2, .right-2 { top: 650px; } 
+.left-3, .right-3 { top: 950px; } 
+.left-4, .right-4 { top: 1250px; } 
+.left-5, .right-5 { top: 1550px; } 
+.left-6, .right-6 { top: 1850px; } 
+.left-7, .right-7 { top: 2150px; } 
+.left-8, .right-8 { top: 2450px; } 
+.left-9, .right-9 { top: 2750px; }
