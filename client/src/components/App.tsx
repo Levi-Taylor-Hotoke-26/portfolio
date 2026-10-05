@@ -10,6 +10,7 @@ import BackToTop from './BackToTop.tsx';
 import CursorController from './CursorController.tsx';
 import AcRadioPlayer from "../components/MusicPlayer.tsx";
 import gamePlaylist from '../data/musicData.ts';
+import Footer from './Footer.tsx';
 
 <CursorController />
 
@@ -69,24 +70,7 @@ export default function App() {
           </Routes>
         </main>
 
-        <footer>
-          <hr />
-          <div className="pikachu-track">
-            <img src="/images/pikachu-running.gif" alt="Pikachu running" className="pikachu-running-flipped" />
-
-            <a href="https://github.com/Levi-Taylor-Hotoke-26" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
-              <img width="37px" src="/images/github-logo.png" alt="GitHub logo" />
-            </a>
-            <a href="https://www.linkedin.com/in/levi-thomas-taylor" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
-              <img width="29px" src="/images/linkedin-logo.png" alt="LinkedIn logo" />
-            </a>
-            <a href="https://nz.seek.com/profiles/levi-taylor-7gGVVN6NKD" className="nav-redirect" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', marginLeft: '5px' }}>
-              <img width="29px" src="/images/seek-logo.png" alt="Seek logo" />
-            </a>
-          </div>
-          <hr />
-        </footer>
-        <BackToTop />
+        <Footer />
       </div>
     </Router>
   );
