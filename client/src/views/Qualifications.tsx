@@ -45,8 +45,8 @@ export default function Qualifications() {
             <summary className="qual-summary-btn nav-expand">View Certificate</summary>
             <div className="qual-image-container" style={{ marginTop: '1rem' }}>
               <img
-                src="/images/placeholder"
-                alt="Certificate in Software Development official certificate - Awarded in October 2026, certificate to be received by November."
+                src="/images/dev-academy-cert.png"
+                alt="Certificate in Software Development official certificate"
                 style={{ maxWidth: '100%', height: 'auto', borderRadius: '4px', border: '1px solid #6B5CA5' }}
               />
             </div>
